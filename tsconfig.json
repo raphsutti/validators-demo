@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "lib",
+    "paths": {
+      "src": ["src"]
+    },
+    "target": "es2021",
+    "resolveJsonModule": true,
+    "lib": ["ES2020", "dom"]
+  },
+  "exclude": ["lib*/**/*"],
+  "extends": "skuba/config/tsconfig.json"
+}
